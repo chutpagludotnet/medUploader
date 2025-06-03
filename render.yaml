@@ -42,9 +42,9 @@ services:
     maxmemoryPolicy: allkeys-lru
 
 # Optional: Database service (if you want persistent PostgreSQL instead of SQLite)
-  - type: pserv
-    name: medusa-database
-    databaseName: medusa_bot_db
-    databaseUser: medusa_user
-    plan: pro
-    region: virginia
+ # - type: pserv
+  #  name: medusa-database
+  #  databaseName: medusa_bot_db
+ #   databaseUser: medusa_user
+  ##  plan: pro
+  #  region: virginia
