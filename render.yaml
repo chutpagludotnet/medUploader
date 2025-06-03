@@ -24,6 +24,3 @@ services:
       name: bot-storage
       mountPath: /app/downloads
       sizeGB: 20
-    scaling:
-      minInstances: 1
-      maxInstances: 1
