@@ -1,5 +1,6 @@
+
 services:
-  - type: web
+  - type: worker
     name: medusa-uploaderbot
     runtime: docker
     plan: pro
@@ -24,3 +25,4 @@ services:
       name: bot-storage
       mountPath: /app/downloads
       sizeGB: 20
+
